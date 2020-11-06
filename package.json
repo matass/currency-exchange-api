@@ -20,7 +20,7 @@
     "tslib": "^2.0.3"
   },
   "scripts": {
-    "server": "tsc && node build/src/server.js",
+    "server": "export $(cat .env | xargs) && tsc && node build/src/server.js",
     "clean": "rimraf coverage build tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "ts-node-dev src/server.ts",
