@@ -16,6 +16,7 @@ Implemented an LRU Cache algorithm.
 
 This project is intended to be used with the latest Active LTS release of Node.js.
 
+Try it live: https://currency-exchange-api-v1.herokuapp.com/quote ([GraphQl request](#graphql-request))
 ### Clone repository
 
 To clone the repository use the following commands:
@@ -66,7 +67,7 @@ Visit `http://0.0.0.0:4000/quote` to enter GraphiQL interface
   quote(
     quote_currency: "USD"
     base_currency: "EUR"
-    base_amount: 1.23
+    base_amount: 1500
   ){
     exchange_rate
     quote_amount
