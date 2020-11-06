@@ -8,7 +8,7 @@ All basic tools included and configured:
 - Type definitions for Node.js and Jest
 - Prettier to enforce consistent code style
 - YARN for common operations
-– GraphQl query language
+- GraphQl query language
 
 Implemented an LRU Cache algorithm.
 
