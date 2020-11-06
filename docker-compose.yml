@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  service:
+    build: .
+    command: yarn run build:watch
+    volumes:
+      - .:/usr/app/
+    ports:
+      - "4000:${PORT}"
+    env_file: .env
